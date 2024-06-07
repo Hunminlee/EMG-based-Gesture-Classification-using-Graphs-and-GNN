@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# config.py: This file contains configuration settings for your program. It might include variables that control various aspects of the program's behavior, such as file paths, API keys, database connection details, etc.
-
 
 import pandas as pd
 import numpy as np
