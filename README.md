@@ -17,7 +17,7 @@ Include the following dependencies
 2. We use Jupyter Notebook and other Integrated Development Environments (IDEs) commonly used for Python development.
 3. To install the project dependencies, run:
 ```bash
-pip install -r requirements.txt
+pip install -r Others/requirements.txt
 ```
 
 ## Dataset
