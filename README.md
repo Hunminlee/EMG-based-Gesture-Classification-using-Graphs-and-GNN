@@ -14,8 +14,11 @@ The project introduces a novel approach to EMG-based upper-limb gesture recognit
 
 ## Installation
 Include the following dependencies 
-1. Requirements for Python (we use Python 3.10.14) and Tensorflow (we use 2.10.0). 
+1. Requirements for Python (we use Python 3.10.14)
 2. We use Jupyter Notebook and other Integrated Development Environments (IDEs) commonly used for Python development.
+3. To install the project dependencies, run:
+```bash
+pip install -r requirements.txt
 
 
 ## Dataset
