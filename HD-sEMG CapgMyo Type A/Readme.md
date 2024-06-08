@@ -4,11 +4,11 @@ The CapgMyo Type A and Type B datasets feature 128 high-density sensors and inco
 
 **Reference**:
 
-title={Surface EMG-based inter-session gesture recognition enhanced by deep domain adaptation},
-author={Du, Yu and Jin, Wenguang and Wei, Wentao and Hu, Yu and Geng, Weidong},
-journal={Sensors},
-volume={17},
-number={3},
-pages={458},
-year={2017},
-publisher={MDPI}
+- title={Surface EMG-based inter-session gesture recognition enhanced by deep domain adaptation},
+- author={Du, Yu and Jin, Wenguang and Wei, Wentao and Hu, Yu and Geng, Weidong},
+- journal={Sensors},
+- volume={17},
+- number={3},
+- pages={458},
+- year={2017},
+- publisher={MDPI}
