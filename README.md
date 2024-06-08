@@ -19,7 +19,7 @@ Include the following dependencies
 3. To install the project dependencies, run:
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Dataset
 
