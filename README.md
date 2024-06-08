@@ -29,5 +29,11 @@ In our experiments, we utilize the following public EMG-gesture datasets. See th
 - [Ninparo Database 5](https://ninapro.hevs.ch/instructions/DB5.html)
 - [BandMyo Dataset](https://github.com/Agire/BandMyo-Dataset)
 
+## Structure
 
+In the training process of each dataset type, the model training procedure comprises three distinct file types:
+- utils.py: This file encompasses data preprocessing and engineering tasks conducted on raw datasets. It includes windowing techniques to segment data and allocate it into node features for each datum.
+- config.py: Within this file lies the structural configuration for data processing. It is responsible for constructing input graphical structures that mimic the geometrical formulation of each sEMG electrode.
+- model.py: This file houses the implementation of the graph neural network model, specifically a graph convolutional network (GCN). The model utilizes the graphical structures and node features to train on different gestures using specific EMG gesture datasets.
+- main.ipynb: This Jupyter Notebook serves as the main script for the training process. It showcases the pretrained models and provides visualizations of their outputs, thereby indicating their performance on each dataset.
 
