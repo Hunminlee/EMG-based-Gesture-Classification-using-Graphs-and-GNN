@@ -8,8 +8,7 @@ The project introduces a novel approach to EMG-based upper-limb gesture recognit
 
 - [Installation](#installation)
 - [Dataset](#Dataset)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Structure](#Structure)
 - [License](#license)
 
 ## Installation
@@ -36,4 +35,7 @@ In the training process of each dataset type, the model training procedure compr
 - config.py: Within this file lies the structural configuration for data processing. It is responsible for constructing input graphical structures that mimic the geometrical formulation of each sEMG electrode.
 - model.py: This file houses the implementation of the graph neural network model, specifically a graph convolutional network (GCN). The model utilizes the graphical structures and node features to train on different gestures using specific EMG gesture datasets.
 - main.ipynb: This Jupyter Notebook serves as the main script for the training process. It showcases the pretrained models and provides visualizations of their outputs, thereby indicating their performance on each dataset.
+- Readme.md: It contains the basic information of each dataset type utilized.
+
+
 
