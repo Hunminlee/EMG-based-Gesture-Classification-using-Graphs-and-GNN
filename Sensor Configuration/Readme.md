@@ -7,3 +7,4 @@ Of particular note is the discernible preservation of performance metrics, under
 
 By elucidating the resilience of our model to variations in electrode configurations, this empirical analysis reinforces the pivotal role of relational features in enhancing the efficacy of gesture recognition systems, thereby contributing to advancements in the field of human-computer interaction.
 
+Add image here
