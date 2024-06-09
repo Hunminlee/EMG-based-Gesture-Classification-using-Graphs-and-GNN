@@ -12,6 +12,7 @@ The BandMyo dataset includes signals recorded from 8 sensors using a Myo armband
 - year={2021}, 
 - publisher={ACM New York, NY, USA} 
 
+---
 
 - title={Learning Effective Spatial--Temporal Features for sEMG Armband-Based Gesture Recognition}, 
 - author={Zhang, Yingwei and Chen, Yiqiang and Yu, Hanchao and Yang, Xiaodong and Lu, Wang}, 
