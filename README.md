@@ -57,6 +57,6 @@ In the training process of each dataset type (CapgMyo Type A/B, Ninapro DB5, UCI
 - Readme.md: It contains the basic information of each dataset type utilized.
 
 
-
+* Our work is currently under review for IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE).
 
 
