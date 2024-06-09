@@ -15,4 +15,4 @@ The objective of the Ninapro project is to facilitate research on advanced hand 
 - publisher={Public Library of Science San Francisco, CA USA}
 
 
-### URL: https://ninapro.hevs.ch/instructions/DB5.html
+### Download here: https://ninapro.hevs.ch/instructions/DB5.html
