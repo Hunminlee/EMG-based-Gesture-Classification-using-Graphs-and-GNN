@@ -23,3 +23,4 @@ The BandMyo dataset includes signals recorded from 8 sensors using a Myo armband
 - year={2020}, 
 - publisher={IEEE}
 
+### Download here: https://github.com/Agire/BandMyo-Dataset
