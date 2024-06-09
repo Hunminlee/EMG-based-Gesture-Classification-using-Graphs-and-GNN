@@ -8,6 +8,7 @@ This project introduces a novel approach to EMG-based upper-limb gesture recogni
 
 - [Installation](#installation)
 - [Dataset](#Dataset)
+- [Files](#Files)
 - [Structure](#Structure)
 - [License](#license)
 
@@ -28,14 +29,34 @@ In our experiments, we utilize the following public EMG-gesture datasets. See th
 - [Ninparo Database 5](https://ninapro.hevs.ch/instructions/DB5.html)
 - [BandMyo Dataset](https://github.com/Agire/BandMyo-Dataset)
 
+
+## Files
+
+The repository is organized into several key sections:
+
+1. **Dataset Folders**:
+   - Five distinct dataset folders, including HD-sEMG CapgMyo Type A/B, Ninapro Database, and UCI EMG Gesture Classification, contain codes for the gesture recognition model utilizing Graph Neural Network (GNN) architecture. Additionally, these folders house scripts for processing the datasets into graphical structures suitable for model training.
+
+2. **Sensor Configuration**:
+   - This section comprises experiments and their corresponding results aimed at identifying optimal sensor configuration settings. Utilizing the CapgMyo and BandMyo datasets, various sensor configurations are explored and evaluated to ascertain their effectiveness in gesture recognition tasks.
+
+3. **Others**:
+   - This folder encompasses supplementary information, including requirements packages necessary for running the codebase. Additionally, it includes supplementary models, such as the Graph Attention Model, which may provide alternative approaches to gesture recognition tasks.
+
+4. **Images**:
+   - This section contains a collection of images and figures utilized within the manuscript associated with the project. These visual aids serve to elucidate the methodologies employed and findings obtained, thereby enhancing comprehension for readers and stimulating further interest in the project's outcomes.
+
+
 ## Structure
 
-In the training process of each dataset type, the model training procedure comprises three distinct file types:
+In the training process of each dataset type (CapgMyo Type A/B, Ninapro DB5, UCI EMG Gestures, BandMyo), the model training procedure comprises three distinct file types:
 - utils.py: This file encompasses data preprocessing and engineering tasks conducted on raw datasets. It includes windowing techniques to segment data and allocate it into node features for each datum.
 - config.py: Within this file lies the structural configuration for data processing. It is responsible for constructing input graphical structures that mimic the geometrical formulation of each sEMG electrode.
 - model.py: This file houses the implementation of the graph neural network model, specifically a graph convolutional network (GCN). The model utilizes the graphical structures and node features to train on different gestures using specific EMG gesture datasets.
 - main.ipynb: This Jupyter Notebook serves as the main script for the training process. It showcases the pretrained models and provides visualizations of their outputs, thereby indicating their performance on each dataset.
 - Readme.md: It contains the basic information of each dataset type utilized.
+
+
 
 
 
