@@ -12,3 +12,6 @@ The UCI EMG Pattern Database incorporates data from 36 subjects, employing 8 EMG
 - Pages: 1122
 - Year: 2018
 - Publisher: MDPI
+
+
+### Download here: https://archive.ics.uci.edu/dataset/481/emg+data+for+gestures
