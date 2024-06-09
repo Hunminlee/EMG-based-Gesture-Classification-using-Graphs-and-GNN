@@ -35,21 +35,21 @@ In our experiments, we utilize the following public EMG-gesture datasets. See th
 The repository is organized into several key sections:
 
 1. **Dataset Folders**:
-   - Five distinct dataset folders, including HD-sEMG CapgMyo Type A/B, Ninapro Database, and UCI EMG Gesture Classification, contain codes for the gesture recognition model utilizing Graph Neural Network (GNN) architecture. Additionally, these folders house scripts for processing the datasets into graphical structures suitable for model training.
+   - Five distinct dataset folders, including [HD-sEMG CapgMyo Type A](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/HD-sEMG%20CapgMyo%20Type%20A) / [B](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/HD-sEMG%20CapgMyo%20Type%20B), [Ninapro Database](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/Ninapro%20Database), and [UCI EMG Gesture Classification](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/UCI%20EMG%20Gesture%20Classification), contain codes for the gesture recognition model utilizing Graph Neural Network (GNN) architecture. Additionally, these folders house scripts for processing the datasets into graphical structures suitable for model training.
 
-2. **Sensor Configuration**:
+2. **[Sensor Configuration](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/Sensor%20Configuration)**:
    - This section comprises experiments and their corresponding results aimed at identifying optimal sensor configuration settings. Utilizing the CapgMyo and BandMyo datasets, various sensor configurations are explored and evaluated to ascertain their effectiveness in gesture recognition tasks.
 
-3. **Others**:
+3. **[Others](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/Others)**:
    - This folder encompasses supplementary information, including requirements packages necessary for running the codebase. Additionally, it includes supplementary models, such as the Graph Attention Model, which may provide alternative approaches to gesture recognition tasks.
 
-4. **Images**:
+4. **[Images](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/Images)**:
    - This section contains a collection of images and figures utilized within the manuscript associated with the project. These visual aids serve to elucidate the methodologies employed and findings obtained, and we hope these figures would enhance comprehension for readers and stimulating further interest!
 
 
 ## Structure
 
-In the training process of each dataset type (CapgMyo Type A/B, Ninapro DB5, UCI EMG Gestures, BandMyo), the model training procedure comprises three distinct file types:
+In the training process of each dataset type ([HD-sEMG CapgMyo Type A](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/HD-sEMG%20CapgMyo%20Type%20A) / [B](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/HD-sEMG%20CapgMyo%20Type%20B), [Ninapro Database](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/Ninapro%20Database), and [UCI EMG Gesture Classification](https://github.com/Hunminlee/EMG-based-Gesture-Classification-using-Graphs-and-GNN/tree/main/UCI%20EMG%20Gesture%20Classification)), the model training procedure comprises three distinct file types:
 - utils.py: This file encompasses data preprocessing and engineering tasks conducted on raw datasets. It includes windowing techniques to segment data and allocate it into node features for each datum.
 - config.py: Within this file lies the structural configuration for data processing. It is responsible for constructing input graphical structures that mimic the geometrical formulation of each sEMG electrode.
 - model.py: This file houses the implementation of the graph neural network model, specifically a graph convolutional network (GCN). The model utilizes the graphical structures and node features to train on different gestures using specific EMG gesture datasets.
