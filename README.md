@@ -44,7 +44,7 @@ The repository is organized into several key sections:
    - This folder encompasses supplementary information, including requirements packages necessary for running the codebase. Additionally, it includes supplementary models, such as the Graph Attention Model, which may provide alternative approaches to gesture recognition tasks.
 
 4. **Images**:
-   - This section contains a collection of images and figures utilized within the manuscript associated with the project. These visual aids serve to elucidate the methodologies employed and findings obtained, thereby enhancing comprehension for readers and stimulating further interest in the project's outcomes.
+   - This section contains a collection of images and figures utilized within the manuscript associated with the project. These visual aids serve to elucidate the methodologies employed and findings obtained, and we hope these figures would enhance comprehension for readers and stimulating further interest!
 
 
 ## Structure
